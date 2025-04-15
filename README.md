@@ -5,8 +5,10 @@
 <a href="https://nodejs.dev/">Node</a> &nbsp;
 
 ## Instalação do Projeto
-Felipepteles
-Não requerida.
+Felipe Teles
+Tiago Pereira
+Gustavo Kirst
+Lucas Fernandes
 
 ## Executando a aplicação
 
