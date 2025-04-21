@@ -6,7 +6,9 @@ soma = v1 + v2;
 }
 
 // retorna o valor da subtração entre os dois parâmetros
-function sub(v1, v2) {}
+function sub(v1, v2) {
+    v1 - v2;
+}
 
 // retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {}
