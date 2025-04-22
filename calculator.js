@@ -6,7 +6,13 @@ function sum(v1, v2) {
 }
 
 // retorna o valor da subtração entre os dois parâmetros
-function sub(v1, v2) {}
+function sub(v1, v2) {
+    let num1 = parseFloat(prompt("Digite o primeiro número:"));
+    let num2 = parseFloat(prompt("Digite o segundo número:"));
+
+    let resultado = num1 - num2;
+    console.log(`Subtração entre ${num1} e ${num2} = ${resultado}`);
+}
 
 // retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {
