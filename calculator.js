@@ -7,6 +7,14 @@ function sub(v1, v2) {}
 // retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {}
 
+function dividir(a, b) {
+    if (b === 0) {
+      throw new Error("Divisão por zero não é permitida.");
+    }
+    return a / b;
+  }
+  
+
 // retorna o valor da multiplicação entre os dois parâmetros
 function mult(v1, v2) {}
 
