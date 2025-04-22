@@ -12,9 +12,9 @@ Você será avaliado por conseguir realizar as atividades propostas e também (t
 
 ## 🎥Cenário e Atividade🎥
 
-- [ ] O grupo deverá desenvolver as funções não implementadas que constam no código, cada membro resolvendo pelo menos uma.
+- [X] O grupo deverá desenvolver as funções não implementadas que constam no código, cada membro resolvendo pelo menos uma.
 - [ ] É necessário haver commits de todos os membros do grupo.
-- [ ] Para realização desta atividade o grupo deverá forkar/clonar o repositório da atividade.
+- [X] Para realização desta atividade o grupo deverá forkar/clonar o repositório da atividade.
 - [ ] A branch de desenvolvimento da funcionalidade deverá ser criada a partir da ``branch`` **dev**, e deverá seguir uma convenção simples de `feature/**`, onde '**' indica o nome da funcionalidade que está sendo desenvolvida.
 - [ ] Deverá ser utilizado o **gitmoji** para realização dos commits.
 - [ ] As mensagens de commit devem seguir o **mesmo tempo verbal aplicado no repositório**
