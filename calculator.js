@@ -10,7 +10,12 @@ function sum(v1, v2) {
 function sub(v1, v2) {}
 
 // retorna o valor da divisão entre os dois parâmetros
-function div(v1, v2) {}
+function div(v1, v2) {
+    const v1 = Number(prompt("Primeiro valor: "));
+    const v2 = Number(prompt("Segundo valor: "));
+
+    return v1 / v2;
+}
 
 // retorna o valor da multiplicação entre os dois parâmetros
 function mult(v1, v2) {}
