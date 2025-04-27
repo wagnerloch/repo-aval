@@ -1,5 +1,10 @@
+const prompt = require("prompt-sync")()
+
 // retorna o valor da soma entre os dois parâmetros
-function sum(v1, v2) {}
+function sum(v1, v2) {
+    const v1 = prompt(Number("Primeiro valor: "))
+    const v2 = prompt(Number("Segundo valor: "))
+}
 
 // retorna o valor da subtração entre os dois parâmetros
 function sub(v1, v2) {}
