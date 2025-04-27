@@ -4,6 +4,8 @@ const prompt = require("prompt-sync")()
 function sum(v1, v2) {
     const v1 = prompt(Number("Primeiro valor: "))
     const v2 = prompt(Number("Segundo valor: "))
+
+    return v1 + v2;
 }
 
 // retorna o valor da subtração entre os dois parâmetros
@@ -23,4 +25,3 @@ function mult(v1, v2) {}
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
 function square(v1) {}
 
-console.log(sum(v1, v2));
