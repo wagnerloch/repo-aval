@@ -1,4 +1,5 @@
 import prompt from 'prompt-sync';
+import sum from './sum.js';
 
 const input = prompt();
 console.log('Calculadora');
@@ -9,9 +10,27 @@ console.log('3. Divisão');
 console.log('4. Multiplicação');
 console.log('5. Raiz Quadrada');
 const option = input('Digite o número da operação desejada: ');
-
-// retorna o valor da soma entre os dois parâmetros
-function sum(v1, v2) {}
+const v1 = parseFloat(input('Digite o primeiro valor: '));
+const v2 = parseFloat(input('Digite o segundo valor: '));
+switch(option) {
+    case '1':
+        console.log(`Resultado: ${sum(v1, v2)}`);
+        break;
+    case '2':
+        console.log(`Resultado: ${sub(v1, v2)}`);
+        break;
+    case '3':
+        console.log(`Resultado: ${div(v1, v2)}`);
+        break;
+    case '4':
+        console.log(`Resultado: ${mult(v1, v2)}`);
+        break;
+    case '5':
+        console.log(`Resultado: ${square(v1)}`);
+        break;
+    default:
+        console.log('Operação inválida');
+}
 
 // retorna o valor da subtração entre os dois parâmetros
 function sub(v1, v2) {}
@@ -25,4 +44,3 @@ function mult(v1, v2) {}
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
 function square(v1) {}
 
-console.log(sum(v1, v2));
