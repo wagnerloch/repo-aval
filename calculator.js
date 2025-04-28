@@ -1,5 +1,9 @@
-// retorna o valor da soma entre os dois parâmetros
-function sum(v1, v2) {}
+const v1 = Number(prompt("Primeiro Numero: "))
+const v2 = Number(prompt("Sengundo Numero:"))
+
+function sum(v1, v2) {
+   return(v1 + v2)
+}
 
 // retorna o valor da subtração entre os dois parâmetros
 function sub(v1, v2) {}
