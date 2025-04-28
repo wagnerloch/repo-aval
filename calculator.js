@@ -1,6 +1,8 @@
 import prompt from 'prompt-sync';
 import sum from './sum.js';
+import mul from './mul.js';
 import square from './square.js';       
+
 
 const input = prompt();
 console.log('Calculadora');
