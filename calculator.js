@@ -1,6 +1,8 @@
 import prompt from 'prompt-sync';
 import sum from './sum.js';
 import mul from './mul.js';
+import square from './square.js';       
+
 
 const input = prompt();
 console.log('Calculadora');
@@ -41,7 +43,4 @@ function div(v1, v2) {}
 
 // retorna o valor da multiplicação entre os dois parâmetros
 function mult(v1, v2) {}
-
-// retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
 
