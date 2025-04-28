@@ -39,7 +39,3 @@ switch(option) {
 
 // retorna o valor da subtração entre os dois parâmetros
 function sub(v1, v2) {}
-
-// retorna o valor da multiplicação entre os dois parâmetros
-function mult(v1, v2) {}
-
