@@ -15,7 +15,9 @@ console.log('4. Multiplicação');
 console.log('5. Raiz Quadrada');
 const option = input('Digite o número da operação desejada: ');
 const v1 = parseFloat(input('Digite o primeiro valor: '));
-const v2 = parseFloat(input('Digite o segundo valor: '));
+if (option != '5') {
+    const v2 = parseFloat(input('Digite o segundo valor: '));
+}
 switch(option) {
     case '1':
         console.log(`Resultado: ${sum(v1, v2)}`);
@@ -27,7 +29,7 @@ switch(option) {
         console.log(`Resultado: ${div(v1, v2)}`);
         break;
     case '4':
-        console.log(`Resultado: ${mult(v1, v2)}`);
+        console.log(`Resultado: ${mul(v1, v2)}`);
         break;
     case '5':
         console.log(`Resultado: ${square(v1)}`);

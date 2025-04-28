@@ -6,7 +6,10 @@
 
 ## Instalação do Projeto
 
-Não requerida.
+```bash
+# development
+$ npm install
+```
 
 ## Executando a aplicação
 
