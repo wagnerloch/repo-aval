@@ -1,6 +1,3 @@
-console.log(sum(v1, v2));
-console.log(square(v1));
-=======
 const v1 = Number(prompt("Primeiro Numero: "));
 const v2 = Number(prompt("Sengundo Numero:"));
 
