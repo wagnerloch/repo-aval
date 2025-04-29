@@ -2,7 +2,7 @@
  
 ## 🔐 Pré requisitos
 
-<a href="https://nodejs.dev/">Node</a> &nbsp;
+<a href="https://nodejs.dev/">Node</a> &nbsp;.
 
 ## Instalação do Projeto
 
