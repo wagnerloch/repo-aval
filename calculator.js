@@ -38,13 +38,18 @@ function mult() {
 
 function sqrt() {
   const num1 = parseFloat(prompt("Digite o número: "));
-  const resultado = Math.sqrt(num1);
 
-  if (isNaN(resultado)) {
-    console.log("Raiz quadrada de número negativo não é permitida");
+  if (isNaN(num1)) {
+    console.log("Entrada inválida! Por favor, insira um número.");
     return;
   }
-  console.log(`Raiz quadrada de ${num1} = ${resultado}`);
+
+  if (num1 < 0) {
+    console.log("Raiz quadrada de número negativo não é permitida.");
+    return;
+  }
+
+  const resultado = Math.sqrt(num1);
 }
 
 function showMenu() {
