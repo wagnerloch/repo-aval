@@ -8,7 +8,11 @@ function sum() {
   console.log(`Soma entre ${num1} e ${num2} = ${resultado}`);
 }
 
-  let resultado = num1 - num2;
+function sub() {
+  const num1 = parseFloat(prompt("Digite o primeiro número: "));
+  const num2 = parseFloat(prompt("Digite o segundo número: "));
+
+  const resultado = num1 - num2;
   console.log(`Subtração entre ${num1} e ${num2} = ${resultado}`);
 }
 
