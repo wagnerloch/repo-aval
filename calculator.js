@@ -2,7 +2,7 @@ class Calculator {
  soma(a, b) {
       return a + b;
   }
-
+ 
   subtração(a, b) {
       return a - b;
   }
