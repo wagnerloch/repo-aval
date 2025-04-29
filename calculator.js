@@ -47,7 +47,15 @@ function sqrt() {
   console.log(`Raiz quadrada de ${num1} = ${resultado}`);
 }
 
-console.log(`soma`, sum(10, 5));
-console.log(`divisão`, div(10, 5));
-console.log("Raiz Quadrada \n");
+function showMenu() {
+  console.log("\nEscolha uma operação:");
+  console.log("+----------------------+");
+  console.log("| 1 - Soma             |");
+  console.log("| 2 - Subtração        |");
+  console.log("| 3 - Divisão          |");
+  console.log("| 4 - Multiplicação    |");
+  console.log("| 5 - Raiz Quadrada    |");
+  console.log("| 6 - Sair             |");
+  console.log("+----------------------+");
+}
 sqrt();
