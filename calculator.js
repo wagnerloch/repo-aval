@@ -58,4 +58,32 @@ function showMenu() {
   console.log("| 6 - Sair             |");
   console.log("+----------------------+");
 }
+
+while (true) {
+  showMenu();
+
+  const choice = parseInt(prompt("Digite sua escolha: "));
+
+  switch (choice) {
+    case 1:
+      sum();
+      break;
+    case 2:
+      sub();
+      break;
+    case 3:
+      div();
+      break;
+    case 4:
+      mult();
+      break;
+    case 5:
 sqrt();
+      break;
+    case 6:
+      console.log("Saindo...");
+      process.exit(0);
+    default:
+      console.log("Opção inválida! Tente novamente.");
+  }
+}
