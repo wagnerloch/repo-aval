@@ -28,13 +28,11 @@ function div() {
   }
 }
 
-// retorna o valor da multiplicação entre os dois parâmetros
 function mult() {
-
-    let num1 = parseFloat(prompt("Digite o primeiro número:"));
-    let num2 = parseFloat(prompt("Digite o segundo número:"));
+  const num1 = parseFloat(prompt("Digite o primeiro número: "));
+  const num2 = parseFloat(prompt("Digite o segundo número: "));
     
-    let resultado = num1 * num2;
+  const resultado = num1 * num2;
     console.log(`Multiplicação entre ${num1} e ${num2} = ${resultado}`);
 }
 
