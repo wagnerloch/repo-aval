@@ -1,11 +1,16 @@
-// retorna o valor da soma entre os dois parâmetros
-function sum(v1, v2) {}
+class Calculator {
+ soma(a, b) {
+      return a + b;
+  }
+ 
+  subtração(a, b) {
+      return a - b;
+  }
 
-// retorna o valor da subtração entre os dois parâmetros
-function sub(v1, v2) {}
-
-// retorna o valor da divisão entre os dois parâmetros
-function div(v1, v2) {}
+  multiplicação(a, b) {
+      return a * b;
+  }
+}
 
 class Calculator {
  
@@ -20,7 +25,18 @@ class Calculator {
 
   module.exports = Calculator;
 
+
+
+
+
+// Testes 
+const calc = new Calculator();
+console.log("Soma: ", calc.soma(10, 5));
+console.log("Subtração: ", calc.subtração(10, 5));
+console.log("Multiplicação: ", calc.multiplicação(10, 5));
+=======
 // Testes
 const calc = new Calculator();
 console.log("Divisão: ", calc.divisão(10, 5));
 console.log("Raiz Quadrada: ", calc.raizQuadrada(9));
+
