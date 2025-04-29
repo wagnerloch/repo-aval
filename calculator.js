@@ -31,9 +31,9 @@ function div() {
 function mult() {
   const num1 = parseFloat(prompt("Digite o primeiro número: "));
   const num2 = parseFloat(prompt("Digite o segundo número: "));
-    
+
   const resultado = num1 * num2;
-    console.log(`Multiplicação entre ${num1} e ${num2} = ${resultado}`);
+  console.log(`Multiplicação entre ${num1} e ${num2} = ${resultado}`);
 }
 
 function sqrt() {
@@ -78,7 +78,7 @@ while (true) {
       mult();
       break;
     case 5:
-sqrt();
+      sqrt();
       break;
     case 6:
       console.log("Saindo...");
