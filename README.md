@@ -1,21 +1,35 @@
-# Projeto para atividade de git
- 
-## 🔐 Pré requisitos
+# Projeto: Calculadora Simples em JavaScript
 
-<a href="https://nodejs.dev/">Node</a> &nbsp;
+Este projeto é uma **calculadora básica** desenvolvida em **Node.js**, contendo funções matemáticas essenciais como soma, subtração, multiplicação, divisão e raiz quadrada.
 
-## Instalação do Projeto
+---
 
-Não requerida.
+## Funcionalidades
 
-## Executando a aplicação
+- Soma de dois números
+- Subtração de dois números
+- Divisão de dois números (com validação de divisão por zero)
+- Multiplicação de dois números
+- Raiz quadrada de um número (com validação para números negativos)
 
-```bash
-# development
-$ node calculator.js
-```
+---
 
-## 🤝 Contribuídores
+## Tecnologias Utilizadas
 
-<a href="https://github.com/wagnerloch"><img src="https://github.com/wagnerloch.png" width="45" height="45"></a> &nbsp;
+- [Node.js](https://nodejs.dev/) - Ambiente de execução JavaScript
 
+---
+
+##  Instalação e Execução
+
+1. **Clone o repositório**:
+
+   git clone https://github.com/seu-usuario/nome-do-repo.git
+
+2. **Entre no diretório do projeto**:
+
+    cd repo-aval
+
+3. **Execute a aplicação**:
+
+    node calculator.js
