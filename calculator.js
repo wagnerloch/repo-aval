@@ -20,7 +20,7 @@ function div() {
   const num1 = parseFloat(prompt("Digite o primeiro número: "));
   const num2 = parseFloat(prompt("Digite o segundo número: "));
 
-  if (v2 === 0) {
+  if (num2 === 0) {
     return "Divisão por zero não é permitida";
   } else {
     const resultado = num1 / num2;
