@@ -36,11 +36,14 @@ function mult() {
     console.log(`Multiplicação entre ${num1} e ${num2} = ${resultado}`);
 }
 
-
-// retorna o valor da raiz quadrada do valor recebido por parâmetro
 function sqrt() {
-  let num1 = parseFloat(prompt("Digite o número: "));
-  let resultado = Math.sqrt(num1);
+  const num1 = parseFloat(prompt("Digite o número: "));
+  const resultado = Math.sqrt(num1);
+
+  if (isNaN(resultado)) {
+    console.log("Raiz quadrada de número negativo não é permitida");
+    return;
+  }
   console.log(`Raiz quadrada de ${num1} = ${resultado}`);
 }
 
