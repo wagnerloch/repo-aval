@@ -17,5 +17,5 @@ $ node calculator.js
 
 ## 🤝 Contribuídores
 
-<a href="https://github.com/wagnerloch"><img src="https://github.com/wagnerloch.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/joaoMarceloBitar"><img src="https://avatars.githubusercontent.com/u/191054228?s=400&u=d5149898fa2bbde06041f7aebd43de47bfe6fadf&v=4" width="45" height="45"></a> &nbsp;
 
