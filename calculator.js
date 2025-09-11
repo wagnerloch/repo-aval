@@ -7,10 +7,20 @@ function sub(v1, v2) {}
 // retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {}
 
-// retorna o valor da multiplicação entre os dois parâmetros
-function mult(v1, v2) {}
+class Calculator {
+ 
+    divisão(a, b) {
+      return a / b;
+    }
+  
+    raizQuadrada(a) {
+      return Math.sqrt(a);
+    }
+  }
 
-// retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
+  module.exports = Calculator;
 
-console.log(sum(v1, v2));
+// Testes
+const calc = new Calculator();
+console.log("Divisão: ", calc.divisão(10, 5));
+console.log("Raiz Quadrada: ", calc.raizQuadrada(9));
