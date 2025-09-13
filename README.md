@@ -1,21 +1,25 @@
-# Projeto para atividade de git
- 
-## 🔐 Pré requisitos
+# Projeto de Atividade de Git
 
-<a href="https://nodejs.dev/">Node</a> &nbsp;
+## 📝 Descrição do Projeto
 
-## Instalação do Projeto
+Este projeto foi desenvolvido como atividade prática de Git, em grupo, com o objetivo de aplicar:  
 
-Não requerida.
+- Criação de branches de features a partir da branch `dev`  
+- Commits seguindo o padrão com gitmoji  
 
-## Executando a aplicação
+O projeto consiste em uma **calculadora simples**.
 
-```bash
-# development
-$ node calculator.js
-```
+### Funções implementadas
 
-## 🤝 Contribuídores
+| Função    | Descrição                                | Implementado por |
+|-----------|-----------------------------------------|----------------|
+| `sum`     | Retorna a soma de dois valores           | Gian           |
+| `sub`     | Retorna a subtração de dois valores      | Gian           |
+| `mult`    | Retorna a multiplicação de dois valores  | Izadora        |
+| `div`     | Retorna a divisão de dois valores        | Izadora        |
+| `square`  | Retorna a raiz quadrada de um valor      | Gian           |
 
-<a href="https://github.com/wagnerloch"><img src="https://github.com/wagnerloch.png" width="45" height="45"></a> &nbsp;
+## 🤝 Contribuidores
 
+- [GianG-17](https://github.com/GianG-17)  
+- [Izadora Calvetti Souza](https://github.com/iza416)
