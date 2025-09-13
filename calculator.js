@@ -15,6 +15,7 @@ function div(v1, v2) {}
 function mult(v1, v2) {}
 
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
-
+function square(v1) {
+    return Math.sqrt(v1);
+}
 
