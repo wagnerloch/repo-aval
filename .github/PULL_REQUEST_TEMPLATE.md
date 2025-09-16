@@ -1,73 +1,49 @@
 # Descrição
-Adicionar aqui uma descrição do que foi feito.
+Este projeto é uma calculadora desenvolvida com todas as funções necessárias para o seu funcionamento. Permitindo realizar cálculos básicos e também alguns mais avançados de forma simples e prática.
 
-Ex.:
-Adiciona módulo de mensagens com remetente, destinatário e vinculado a uma solicitação.
+# Implementa
+⦁    Operação de soma
 
-## Implementa
-Citar aqui o que foi implementado (Pode ser em forma de itens)
+⦁    Operação de subtração
 
-Ex.:
-- Criação de mensagens
-- Listagem de mensagens por solicitação
-- Listagem de mensagens por usuários
-- Adição de subscription
-- Demais queries e mutations do nest-query
+⦁    Operação de multiplicação
 
-## Ajusta
-Caso na implementação, além da proposta principal da entrega, tenha sido feito algum ajuste, citar aqui.
+⦁    Operação de divisão
 
-Ex.:
-- Módulo de Users para listar mensagens
-- Módulo de Solicitations para listar mensagens
+⦁    Operação de potenciação
 
-## Corrige
-Caso alguma correção tenha sido feita, citar aqui.
+# Ajusta
+⦁    Criação de um menu para que o usuário possa escolher qual operação quer executar.
 
-Ex.:
-- Nada relevante
-
-## Fecha
-Enviar aqui o link da Issue que está sendo fechada.
-
-## Tipo de mudança (marcar as alternativas que se encaixam)
-- [ ] Nova Funcionalidade
-- [ ] Correções de bugs
-- [ ] Ajuste
-
-Ex.:
-- [x] Nova Funcionalidade
-- [ ] Correções de bugs
-- [x] Ajuste
+Tipo de mudança (marcar as alternativas que se encaixam)
+[x] Nova Funcionalidade
+[  ] Correções de bugs
+[  ] Ajuste
 
 # Como foi testado?
-Explicar aqui como foi testada a entrega.
-
-Ex.:
-Testes manuais no insomnia.
-
-### Exemplo:
-#### Criação de mensagem
-<img width="730" alt="image" src="https://user-images.githubusercontent.com/5839083/161609904-7cf45b9a-6758-4d9a-aae9-be9b187df8ae.png">
+Testes feitos no console.
 
 
-#### Listagem de usuários com mensagens enviadas e recebidas
-<img width="733" alt="image" src="https://user-images.githubusercontent.com/5839083/161609656-64ea2fad-0d1d-48e9-a080-f4f4b9a5e778.png">
+#### Código utilizado para a função "Soma" da calculadora: 
+<img width="730" alt="image" src="https://cdn.discordapp.com/attachments/1417350215526252674/1417374723595047062/image.png?ex=68ca4093&is=68c8ef13&hm=12fd7dc7164e763ae56f2feb769409b0214c7668c63985845dc4a4f3da9e5f64">
 
+#### Código utilizado para a função "Subtração" da calculadora:
+<img width="730" alt="image" src="https://media.discordapp.net/attachments/1417350215526252674/1417373086482698350/Screenshot_1.png?ex=68ca3f0d&is=68c8ed8d&hm=9a6fc93da69292c039753465cbc2a55a9b76ce0172b15ea4aaef5b7fc7b5bae1&=&format=webp&quality=lossless">
 
-#### Listando mensagens de solicitações
-<img width="703" alt="image" src="https://user-images.githubusercontent.com/5839083/161610024-ee53738a-0809-4b9f-a784-49796ee6a23f.png">
+#### Código utilizado para a função "Divisão" da calculadora:
+<img width="730" alt="image" src="https://media.discordapp.net/attachments/1417350215526252674/1417375053636702319/image.png?ex=68ca40e2&is=68c8ef62&hm=ee54f7b7e5d2bf39301a1c614bb2b320d10329911706063dcf938d5ed0340604&=&format=webp&quality=lossless">
 
+#### Código utilizado para a função "Multiplicação" da calculadora:
+<img width="730" alt="image" src="https://media.discordapp.net/attachments/1417350215526252674/1417375309669339167/image.png?ex=68ca411f&is=68c8ef9f&hm=ae1559eca7363da4ee5392985c7d72d2ae531c36b615c23d073cea90cd8bd7e3&=&format=webp&quality=lossless">
 
+#### Código utilizado para a função "Potência" da calculadora:
+<img width="730" alt="image" src="https://media.discordapp.net/attachments/1417350215526252674/1417375349297381456/image.png?ex=68ca4128&is=68c8efa8&hm=96d48906f40167c5a52327131773c75a346a205372e39030a84d84852455da82&=&format=webp&quality=lossless">
 
 Checklist:
-- [x] Meu código segue os padrões do repositório, como gitmoji e commits organizados e com mensagens adequadas
-- [x] Meu código segue os padrões deste projeto
-- [ ] Escrevi testes automatizados necessários para esta entrega
-- [x] Testei exaustivamente a entrega
-- [x] Revisei o código que está sendo entregue
-- [x] Documentei de alguma forma o que foi feito para auxiliar próximos devs (em código, insomnia, documentos auxiliares)
-- [x] Minhas mudanças não geram nenhum motivo de alerta ou possível quebra de outras funcionalidades
-
-# Informações adicionais:
-Caso tenham algo a adicionar de informação, adicionar aqui.
+[x] Meu código segue os padrões do repositório, como gitmoji e commits organizados e com mensagens adequadas
+[x] Meu código segue os padrões deste projeto
+[  ] Escrevi testes automatizados necessários para esta entrega
+[  ] Testei exaustivamente a entrega
+[x] Revisei o código que está sendo entregue
+[x] Documentei de alguma forma o que foi feito para auxiliar próximos devs (em código, insomnia, documentos auxiliares)
+[x] Minhas mudanças não geram nenhum motivo de alerta ou possível quebra de outras funcionalidades
