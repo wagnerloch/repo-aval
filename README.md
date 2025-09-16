@@ -18,4 +18,6 @@ $ node calculator.js
 ## 🤝 Contribuídores
 
 <a href="https://github.com/wagnerloch"><img src="https://github.com/wagnerloch.png" width="45" height="45"></a> &nbsp;
-
+<a href="https://github.com/pabloknapp"><img src="https://github.com/pabloknapp.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/luiszr21"><img src="https://github.com/luiszr21.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/vicentenrx"><img src="https://github.com/vicentenrx.png" width="45" height="45"></a> &nbsp;
