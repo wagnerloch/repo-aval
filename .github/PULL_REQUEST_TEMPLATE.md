@@ -1,53 +1,26 @@
 # Descrição
-Adicionar aqui uma descrição do que foi feito.
-
-Ex.:
-Adiciona módulo de mensagens com remetente, destinatário e vinculado a uma solicitação.
+Implementação das funções soma e divisão na calculadora.
 
 ## Implementa
-Citar aqui o que foi implementado (Pode ser em forma de itens)
-
-Ex.:
-- Criação de mensagens
-- Listagem de mensagens por solicitação
-- Listagem de mensagens por usuários
-- Adição de subscription
-- Demais queries e mutations do nest-query
+- Função soma: retorna a soma de dois parâmetros
+- Função divisão: retorna a divisão de dois parâmetros
 
 ## Ajusta
-Caso na implementação, além da proposta principal da entrega, tenha sido feito algum ajuste, citar aqui.
-
-Ex.:
-- Módulo de Users para listar mensagens
-- Módulo de Solicitations para listar mensagens
+- Nenhuma
 
 ## Corrige
-Caso alguma correção tenha sido feita, citar aqui.
-
-Ex.:
-- Nada relevante
+- Nenhuma
 
 ## Fecha
-Enviar aqui o link da Issue que está sendo fechada.
+N/A
 
 ## Tipo de mudança (marcar as alternativas que se encaixam)
-- [ ] Nova Funcionalidade
+- [x] Nova Funcionalidade
 - [ ] Correções de bugs
 - [ ] Ajuste
 
-Ex.:
-- [x] Nova Funcionalidade
-- [ ] Correções de bugs
-- [x] Ajuste
-
 # Como foi testado?
-Explicar aqui como foi testada a entrega.
-
-Ex.:
-Testes manuais no insomnia.
-
-### Exemplo:
-#### Criação de mensagem
+Testes manuais executando o código com node calculator.js.
 <img width="730" alt="image" src="https://user-images.githubusercontent.com/5839083/161609904-7cf45b9a-6758-4d9a-aae9-be9b187df8ae.png">
 
 
