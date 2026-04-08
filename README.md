@@ -19,3 +19,5 @@ $ node calculator.js
 
 <a href="https://github.com/wagnerloch"><img src="https://github.com/wagnerloch.png" width="45" height="45"></a> &nbsp;
 
+# Hernane Lemes
+# Gabriel Soares
