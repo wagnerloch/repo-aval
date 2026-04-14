@@ -45,6 +45,13 @@ function square(v1) {
   return result;
 }
 
+// retorna v2% de v1
+function percent(v1, v2) {
+  const result = (v1 * v2) / 100;
+  addToHistory(`${v2}% de ${v1} = ${result}`);
+  return result;
+}
+
 // função para exibir o histórico
 function showHistory() {
   console.log("Histórico de cálculos:");
@@ -63,5 +70,6 @@ console.log(sub(v1, v2));
 console.log(div(v1, v2));
 console.log(mult(v1, v2));
 console.log(square(v1));
+console.log(percent(v1, v2)); // 👈 novo teste
 
 showHistory();
