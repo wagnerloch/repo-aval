@@ -17,5 +17,8 @@ $ node calculator.js
 
 ## 🤝 Contribuídores
 
+João Falcão Migliori Brito
+Nicolas Fonseca Mollerke
+
 <a href="https://github.com/wagnerloch"><img src="https://github.com/wagnerloch.png" width="45" height="45"></a> &nbsp;
 
