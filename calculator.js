@@ -22,3 +22,5 @@ function mult(v1, v2) {
 function square(v1) {
   return Math.sqrt(v1);
 }
+
+:)
