@@ -16,6 +16,8 @@ $ node calculator.js
 ```
 
 ## 🤝 Contribuídores
+https://github.com/thz17
+<a href="https://github.com/thz17"><img src="https://github.com/thz17.png" width="45" height="45" /></a>
 
 <a href="https://github.com/wagnerloch"><img src="https://github.com/wagnerloch.png" width="45" height="45"></a> &nbsp;
 
