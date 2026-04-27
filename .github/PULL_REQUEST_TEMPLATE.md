@@ -1,18 +1,17 @@
 # Descrição
-Adicionar aqui uma descrição do que foi feito.
+Criamos três novas funções
+Soma
+Subtração
+Divisão
 
 Ex.:
 Adiciona módulo de mensagens com remetente, destinatário e vinculado a uma solicitação.
 
 ## Implementa
-Citar aqui o que foi implementado (Pode ser em forma de itens)
+Função soma: retorna a soma de dois parâmetros
+Função subtração: retorna a subtração de dois parâmetros
+Função divisão: retorna a divisão de dois parâmetros
 
-Ex.:
-- Criação de mensagens
-- Listagem de mensagens por solicitação
-- Listagem de mensagens por usuários
-- Adição de subscription
-- Demais queries e mutations do nest-query
 
 ## Ajusta
 Caso na implementação, além da proposta principal da entrega, tenha sido feito algum ajuste, citar aqui.
@@ -31,9 +30,9 @@ Ex.:
 Enviar aqui o link da Issue que está sendo fechada.
 
 ## Tipo de mudança (marcar as alternativas que se encaixam)
-- [ ] Nova Funcionalidade
-- [ ] Correções de bugs
-- [ ] Ajuste
+- [x] Nova Funcionalidade
+- [x] Correções de bugs
+- [x] Ajuste
 
 Ex.:
 - [x] Nova Funcionalidade
@@ -41,7 +40,7 @@ Ex.:
 - [x] Ajuste
 
 # Como foi testado?
-Explicar aqui como foi testada a entrega.
+Testes no manuais no terminal 
 
 Ex.:
 Testes manuais no insomnia.
